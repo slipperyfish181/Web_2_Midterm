@@ -34,12 +34,21 @@ body {
     color: rgb(0, 0, 0)
   }
 
-  .frame-container{
-    width: 80%;
-    height: 450px;
-    border: 10px solid rgb(255, 255, 255); 
-    background-color: #ffffff;
-    margin: 50px auto; 
-    display: block;
-    
- }
+ .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.imagebox, .textbox {
+  background-color: white;
+  padding: 20px;
+  width: 45%;
+}
+
+.imagebox img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 5px solid white;
+}
