@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to bottom, #f2b82b, #162665); 
+  font-family: 'Montserrat', sans-serif; 
+  margin: 0; 
+  padding: 0;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+.topnav {
+    background-color: #f2b82b;
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  
+
+  .topnav a:hover {
+    background-color: rgb(36, 36, 113);
+    color: rgb(19, 19, 19);
+  }
+  
+  .topnav a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0)
+  }
