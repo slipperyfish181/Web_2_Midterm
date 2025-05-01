@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #f2b82b, #162665); 
+  background: linear-gradient(to bottom, #ffffff, #162665); 
   font-family: 'Montserrat', sans-serif; 
   margin: 0; 
   padding: 0;
@@ -33,3 +33,13 @@ body {
     background-color: #ffffff;
     color: rgb(0, 0, 0)
   }
+
+  .frame-container{
+    width: 80%;
+    height: 450px;
+    border: 10px solid rgb(255, 255, 255); 
+    background-color: #ffffff;
+    margin: 50px auto; 
+    display: block;
+    
+ }
