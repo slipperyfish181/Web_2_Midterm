@@ -15,18 +15,6 @@
     background-color: #00467f;
 }
 
-#navtext {
-    color: #00467f;
-}
-
-#navlinks{
-    color: #00467f;
-}
-
-#navlinks:hover {
-    color: white;
-}
-
-li:hover {
-    color: white;
+.navbar a {
+    color: #3370a1;
 }
