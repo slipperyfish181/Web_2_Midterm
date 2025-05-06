@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #eeb111;
+    /* #00467f dark blue eps color */
+}
+
+
+#navbarbg {
+    background-color: #eeb111;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#abovenav {
+    background-color: #00467f;
+}
+
+.navbar a {
+    color: #3370a1;
+}
