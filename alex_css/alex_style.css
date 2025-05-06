@@ -1,3 +1,15 @@
+
+
+body {
+    background: linear-gradient(to right, #443cdd, #162665); 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0; 
+    padding: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar {
     background-color: #eeb111;
     /* #00467f dark blue eps color */
@@ -17,4 +29,27 @@
 
 .navbar a {
     color: #3370a1;
+}
+
+footer {
+    background-color: #003d6f;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+@keyframes fade {
+    0% {opacity: 0.2%; bottom: -100px;}
+    25% {opacity: 0.4%; bottom: -75px;}
+    50% {opacity: 0.6%; bottom: -50px;} 
+    75% {opacity: 0.8%; bottom: -25px;}
+    100% {opacity: 1; bottom: 0px;}
+}
+
+@keyframes fade2 {
+    0% {opacity: 0.2%; bottom: -200px;}
+    25% {opacity: 0.4%; bottom: -150px;}
+    50% {opacity: 0.6%; bottom: -100x;} 
+    75% {opacity: 0.8%; bottom: -50px;}
+    100% {opacity: 1; bottom: 0px;}
 }
