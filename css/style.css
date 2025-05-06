@@ -19,8 +19,10 @@
     color: #3370a1;
 }
 
+
 footer {
-    background-color: rgb(145, 145, 145);
+    background-color: #003d6f;
     text-align: center;
+    color: white;
     font-size: 12px;
 }
