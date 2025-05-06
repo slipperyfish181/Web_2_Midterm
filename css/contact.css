@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #162665); 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0; 
+    padding: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #eeb111;
+    /* #00467f dark blue eps color */
+}
+
+
+#navbarbg {
+    background-color: #eeb111;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#abovenav {
+    background-color: #00467f;
+}
+
+.navbar a {
+    color: #3370a1;
+}
+
+footer {
+    background-color: #003d6f;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
