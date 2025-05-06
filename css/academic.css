@@ -31,26 +31,10 @@ body {
 
 
   
-  .container {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-}
 
-.imagebox, .textbox {
-  background-color: white;
-  padding: 20px;
-  width: 45%;
-}
-
-.imagebox img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border: 5px solid white;
-}
 footer {
-  background-color: rgb(145, 145, 145);
+  background-color: #003d6f;
   text-align: center;
+  color: white;
   font-size: 12px;
 }
