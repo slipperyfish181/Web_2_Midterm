@@ -11,14 +11,37 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/tgn7dyn.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
     <script src="js/contact.js"></script>
 
-    <div class="container-fluid">
-        <div class="row m-3" style="padding-top: 80px; text-align: center;">
+    <div id="abovenav" class="container-fluid">
+        <img src="images/EPS.png" alt="eps logo" style="width: 1000px; margin-top: 40px; margin-left: 20px; margin-bottom: 10px;">
+    </div>
+    <div id="navbarbg" class="container-fluid text-white" >
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/EPSEagleTransparent.png" alt="home icon" style="width: 60px; border-radius: 20px;">
+            </a>
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sports.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="academic.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Academic</a></li>
+                    <li class="nav-item"><a class="nav-link" href="food.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="social.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Social</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="btn btn-danger m-2" href="contact.html" role="button" style="font-size: 20px; background-color: #00467f; color: black; font-weight: bolder; color: #eeb111; border: 3px; border-color: black; border-style: solid;">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid" style="padding-bottom: 60px;">
+        <div class="row m-3" style="padding-top: 30px; text-align: center;">
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <h1 style="padding: 10px;">Contact Us</h1>
@@ -28,12 +51,14 @@
 
         <div class="row mx-3 py-1">
             <div class="col-md-2"></div>
-            <div class="col-md-8 text-bg p-4" style="text-align: center;">
+            <div class="col-md-8 text-bg p-4" style="text-align: center; background-color: white; border-radius: 10px;">
                 <form action="https://four11.eastsideprep.org/epsnet/form_debug" method="POST">
+                    <!-- code from mr.briggs -->
                     <input type="hidden" name="login" value="xduan">
                     <input type="hidden" name="return_url" value="https://www.eastsideprep.org/">
                     <input type="hidden" name="return_text" value="Continue exploring our website. ">
-
+                    <!-- ends here -->
+                     
                     <div style="margin-left: 200px; margin-right: 200px;">
                         <div class="mb-3 font">
                             <label for="email" class="form-label">Email</label>
@@ -90,8 +115,9 @@
     </div>
     <br><br>
 
-    <footer class="py-2">
+    <footer class="py-2 text-center">
         <p style="font-size: 15px;"><b>Eastside Preparatory School</b></p>
+<<<<<<< HEAD
         <p>
             <b>Phone:</b> <br>
             <a href="tel:425-822-5668">(425) 822-5668</a>
@@ -108,6 +134,12 @@
         <p>
             @copyright Alpha Squad
         </p>
+=======
+        <p><b>Phone:</b><br><a href="tel:425-822-5668">(425) 822-5668</a></p>
+        <p><b>Address:</b><br><a href="https://maps.app.goo.gl/J6D3FjmrctAWhDL39" target="_blank">10613 NE 38th Place, Kirkland WA 98033</a></p>
+        <p><b>Email:</b><br><a href="mailto:info@eastsideprep.org">info@eastsideprep.org</a></p>
+        <p>&copy; Alpha Squad</p>
+>>>>>>> a3704cb398890762e771fcca91dcdeb7cce4f66f
     </footer>
 
 </body>
