@@ -15,71 +15,71 @@
 
         /*learned css relating to the gallery through w3schools */
         .slideshow-container {
-        max-width: 1000px;
-        position: relative;
-        animation-name: fade;
-        animation-duration: 2s;
-        border-radius: 25px;
-        margin-top: 25px;
-        margin-left: auto;
-        margin-right: auto;
+            max-width: 1000px;
+            position: relative;
+            animation-name: fade;
+            animation-duration: 1.5s;
+            border-radius: 25px;
+            margin-top: 25px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .mySlides {
-        display: none;
+            display: none;
         }
 
         .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
         }
 
         .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
+            right: 0;
+            border-radius: 3px 0 0 3px;
         }
 
         .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
+            background-color: rgba(0,0,0,0.8);
         }
 
         .text {
-        color: #f2f2f2;
-        font-size: 40px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
+            color: #f2f2f2;
+            font-size: 40px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
         }
 
         .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
         }
 
         .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
         }
 
         .container-fluid {
@@ -91,7 +91,6 @@
             animation-name: fade;
             animation-duration: 2s;
         }
-
     </style>
 </head>
 <body>
@@ -105,10 +104,10 @@
             </a>
             <div class="container-fluid">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="sports.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Sports</a></li>
                     <li class="nav-item"><a class="nav-link" href="academic.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Academic</a></li>
-                    <li class="nav-item"><a class="nav-link" href="food.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Food</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="food.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Food</a></li>
                     <li class="nav-item"><a class="nav-link" href="social.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: 1000;">Social</a></li>
                 </ul>
                 <ul class="navbar-nav">
@@ -119,26 +118,29 @@
     </div>
 
 
+    <!--learned this with w3schools-->
     <div class="slideshow-container">
         <div class="mySlides">
-        <div class="numbertext">1 / 3</div>
-        <img src="images/food1.jpg" style="width:1000px; border-radius: 25px;">
-        <div class="text">Food at EPS</div>
+            <div class="numbertext">1 / 3</div>
+            <img src="images/food1.jpg" style="width:1000px; border-radius: 25px; border: black; border-width: 5px; border-style: solid;">
+            <div class="text">Food at EPS</div>
         </div>
         <div class="mySlides">
-        <div class="numbertext">2 / 3</div>
-        <img src="images/food2.jpg" style="width:1000px; border-radius: 25px;">
-        <div class="text">Food at EPS</div>
+            <div class="numbertext">2 / 3</div>
+            <img src="images/food2.jpg" style="width:1000px; border-radius: 25px; border: black; border-width: 5px; border-style: solid;">
+            <div class="text">Food at EPS</div>
         </div>
         <div class="mySlides">
-        <div class="numbertext">3 / 3</div>
-        <img src="images/food3.jpg" style="width:1000px; border-radius: 25px;">
-        <div class="text">Food at EPS</div>
+            <div class="numbertext">3 / 3</div>
+            <img src="images/food3.jpg" style="width:1000px; border-radius: 25px; border: black; border-width: 5px; border-style: solid;">
+            <div class="text">Food at EPS</div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+
     <br>
+
     <!--learned this with w3schools-->
     <div id="dotsdiv" style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
@@ -151,7 +153,7 @@
             <div class="row">
                 <!--text generated with chat gpt-->
                 <div class="col-md-6" style="text-align: center; margin-top: 25px;">Eastside Preparatory School provides a thoughtfully designed food program that emphasizes nutrition, variety, and sustainability. The school's dining services offer students a wide range of meal options that cater to diverse dietary needs, including vegetarian, vegan, and gluten-free choices. Meals are prepared using fresh, high-quality ingredients, with a strong focus on seasonal and locally sourced produce whenever possible. The menu typically includes a mix of hot entrees, fresh salads, soups, and healthy snacks, all crafted to promote well-being and sustained energy throughout the school day. In addition to providing nutritious meals, Eastside Prep fosters a positive dining environment where students are encouraged to make mindful food choices and learn about the importance of a balanced diet. The school also values student feedback and often incorporates suggestions into menu planning, creating a collaborative and inclusive approach to campus dining.</div>
-                <div class="col-md-6"> <img src="images/school1.jpg" alt="school photo" style="width: 100%; border-radius: 25px; margin-top: 10px; margin-bottom: 10px;"></div>
+                <div class="col-md-6"> <img src="images/school1.jpg" alt="school photo" style="width: 100%; border-radius: 25px; margin-top: 10px; margin-bottom: 10px; border: black; border-width: 5px; border-style: solid;"></div>
             </div>
         </div>
     </div>
@@ -159,8 +161,7 @@
     <div class="container-fluid" style="margin-top: 25px; margin-bottom: 25px;">
         <div class="container" style="border-radius: 25px; background-color: white;">
             <div class="row">
-                <!--text generated with chat gpt-->
-                <div class="col-md-6"><img src="images/Javi.jpg" alt="Javi" style="width: 100%; border-radius: 25px; margin-top: 10px; margin-bottom: 10px;"></div>
+                <div class="col-md-6"><img src="images/Javi.jpg" alt="Javi" style="width: 100%; border-radius: 25px; margin-top: 10px; margin-bottom: 10px; border: black; border-width: 5px; border-style: solid;"></div>
                 <div class="col-md-6" style="text-align: center; margin-top: 5px;">
                     <h2>Javier Fernandez: Head Chef</h2>
                     <!--text enhanced with AI, taken from EPS and added some more information-->
@@ -187,11 +188,11 @@ Beyond his culinary skills, Javier is known for his positive attitude and his ge
         showSlides(slideIndex);
 
         function plusSlides(n) {
-        showSlides(slideIndex += n);
+            showSlides(slideIndex += n);
         }
 
         function currentSlide(n) {
-        showSlides(slideIndex = n);
+            showSlides(slideIndex = n);
         }
 
         function showSlides(n) {
@@ -206,10 +207,9 @@ Beyond his culinary skills, Javier is known for his positive attitude and his ge
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
         }
     </script>
-
 </body>
 </html>
